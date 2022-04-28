@@ -1,0 +1,52 @@
+.Personal-Heading{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+.Project{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.Project{
+  font-size: 27px;
+}
+
+strong{
+  font-size: 20px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.box1{
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.rXVIsEY-8tvQzwA2E2buBgHaCM%26pid%3DApi&f=1');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  box-shadow: 7px 10px 8px rgb(39, 37, 37);
+
+}
+
+.main_detail{
+  box-shadow: 7px 10px 8px rgb(39, 37, 37);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+.box1{
+ 
+  box-shadow: none;
+
+}
+
+.main_detail{
+  box-shadow: none;
+}
+}
