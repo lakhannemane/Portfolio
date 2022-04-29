@@ -4,8 +4,8 @@ import './About.css'
 
 const About = () => {
   return (
-    <div className='container mt-4  pt-2 ' style={{ height: "70vh"  }}  >
-      <div className="about_section mx-auto " style={{ width: "100%" }} >
+    <div className='container mt-4  pt-2 mb-5 '  >
+      <div className="about_section mx-auto " >
         <div className="row " >
           {/* personal detail */}
           <div className="col-md-12 col-lg-7 col-sm-12 mb-3" >

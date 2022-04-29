@@ -9,7 +9,7 @@ import './Project.css'
 const Project = () => {
     return (
 
-        <div className='container mt-5 pt-5  '   >
+        <div className='container mt-2 pt-5 mb-5  '   >
             <h2 className='text-center Heading mb-5'>Recently Projects</h2>
             <div className="row ">
                 <div className=" col-lg-6 col-md-6 col-sm-12 card1 mb-3 ">

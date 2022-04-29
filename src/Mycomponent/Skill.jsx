@@ -2,10 +2,9 @@ import React from 'react'
 import "./Skill.css"
 
 const Skill = () => {
-    return (
-        <div className='container  ' style={{ height: "70vh" }}  >
-
-            <h2 className='text-center Heading  ' >My Skills</h2>
+    return (   
+        <div className='container pt-3 mb-4'  >
+            <h2 className='text-center Heading'>My Skills</h2>
             <h4 className='text-center heading'>Frontend</h4>
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-4">

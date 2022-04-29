@@ -3,7 +3,7 @@ import "./Contact.css"
 
 const ContactPage = () => {
     return (
-        <div className='container mt-5 Contact_page ' style={{ height: "70vh" }}  >
+        <div className='container mt-5 mb-5 Contact_page '   >
             <h2 className='text-center Contact_head'>Conatct <span className="me">Me</span> </h2>
             <form>
                 <div class="mb-3">

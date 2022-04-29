@@ -1,45 +1,107 @@
-
-
-.main_page{
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.rXVIsEY-8tvQzwA2E2buBgHaCM%26pid%3DApi&f=1');
+ .main_page {
+    /* background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.rXVIsEY-8tvQzwA2E2buBgHaCM%26pid%3DApi&f=1');
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 75vh;
-    background-size: cover;
+    height: 80vh;
+    background-size: cover; */
     /* opacity: 0.2; */
-    mask-image: linear-gradient(to bottom , rgba(0,0,0,5), rgba(250, 245, 245, 0.9));
-   /* opacity: ; */
-   /* background-image: linear-gradient(to bottom, #74BDCB ,#FFA384 ); */
+    /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 5), rgba(250, 245, 245, 0.9)); */
+    /* opacity: ; */
+    background-image: linear-gradient(to bottom, #74BDCB ,#FFA384 );
 
-}
-/* .conatnet{ */
-    /* color: white;
-} */
-.sub{
+ }   
+
+ /* .conatnet{ 
+ color: white;
+}  */
+ /* .sub {
     color: black(0, 0, 0);
-}
+    font-size: 17px;
+} */
 
-.greeting{
+/* .greeting {
     font-size: 30px;
     color: white;
 
 }
 
-.img1{
-   
-    width:300px;
-    height: 300px;
-    border-radius: 50%;
-   
+.img1 {
+    width:50%; height:50%;
+
 }
 
+marquee{
+    font-size: 27px ;
+    color: orange;
+}
 
 
 @media only screen and (max-width: 600px) {
     .img1 {
-        width:200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
     }
+
+    .greeting {
+        font-size: 15px;
+        color: white;
+
+    }
+
+    .main_page {
+        height: 55vh;
+        width: 100%;
+    }
+    marquee{
+        font-size: 15px ;
+        color: aqua;
+    }
+    h2{
+        font-size: 15px;
+    }
+
+    .sub{
+        font-size:12px ;
+    }
+
+    .button{
+        font-size: 10px;
+    }
+
 }
+
+@media only screen and (max-width: 900px) {
+    .img1 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .greeting {
+        font-size: 22px;
+        color: white;
+
+    }
+
+    .main_page {
+        height: 35vh;
+        width: 100%;
+    }
+    marquee{
+        font-size: 25px ;
+        color: aqua;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+    .sub{
+        font-size:20px ;
+    }
+
+    .button{
+        font-size: 10px;
+    }
+} */
