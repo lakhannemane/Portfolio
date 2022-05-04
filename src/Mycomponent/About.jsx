@@ -11,12 +11,12 @@ const About = () => {
           <div className="col-md-12 col-lg-7 col-sm-12 mb-3" >
             <div className="card">
               <div className="card-body main_detail">
-                <h3 className='Personal-Heading'>Personal Detail</h3>
-                <p><strong>Name</strong>&nbsp;:Laxman Nemane</p>
-                <p><strong>Adress</strong>&nbsp;:Balewadi, pune. </p>
-                <p><strong>Education</strong>&nbsp;:B.E (computer Engineering)</p>
-                <p><strong>Email</strong>&nbsp;:lnemane7@gmail.com</p>
-                <p><strong>Mob Number</strong>&nbsp;: 9834291623</p>
+                <h3 className='Personal_Heading'>Personal Detail  &#8669;</h3>
+                <p><strong>Name</strong>&nbsp;:&nbsp;Laxman Nemane</p>
+                <p><strong>Address</strong>&nbsp;:&nbsp;Balewadi, pune. </p>
+                <p><strong>Education</strong>&nbsp;:&nbsp;B.E (computer Engineering)</p>
+                <p><strong>Email</strong>&nbsp;:&nbsp;lnemane7@gmail.com</p>
+                <p><strong>Mobile No</strong>&nbsp;:&nbsp; 9834291623</p>
 
               </div>
             </div>

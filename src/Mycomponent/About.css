@@ -1,5 +1,5 @@
-.Personal-Heading{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.Personal_Heading{
+  font-family: 'Libre Bodoni', serif;
   font-weight: 600;
 }
 
@@ -32,9 +32,15 @@ p{
 
 }
 
+.box1:hover  {
+  transform: translateY(10px);
+}
+
 .main_detail{
   box-shadow: 7px 10px 8px rgb(39, 37, 37);
 }
+
+
 
 
 

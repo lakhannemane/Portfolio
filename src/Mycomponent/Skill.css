@@ -1,15 +1,37 @@
-.Heading{
+.Heading {
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline rgb(74, 157, 235);}
+    text-decoration: none;
+}
 
-.heading{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+.abs {
+    color: orange;
+}
+
+.heading {
+    font-family: 'Libre Bodoni', serif;
+
 
 }
 
-.brand{
+.brand {
     font-size: 27px;
     font-weight: 700;
 }
 
+
+.nav-item:hover {
+    border-bottom: 2px solid rgb(9, 255, 0);
+    box-shadow: 3px 3px 7px black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 980px) {
+    .nav-item:hover {
+        border-bottom: none;
+        box-shadow: 3px 3px 7px black;
+        width: 75%;
+        margin: auto;
+        padding-left: 10px;
+
+    }
+}

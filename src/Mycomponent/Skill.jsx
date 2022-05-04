@@ -4,8 +4,8 @@ import "./Skill.css"
 const Skill = () => {
     return (   
         <div className='container pt-3 mb-4'  >
-            <h2 className='text-center Heading'>My Skills</h2>
-            <h4 className='text-center heading'>Frontend</h4>
+            <h2 className='text-center Heading'>Skills  <span className='abs'> & Abilities</span></h2>
+            <h4 className='text-center heading'>Frontend <span style={{fontWeight:"600"}}>&#8595;</span></h4>
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-4">
                     <span>React js:</span>
@@ -94,7 +94,7 @@ const Skill = () => {
             </div>
             <div>
 
-                <h4 className='text-center heading mt-2'>Backend</h4>
+                <h4 className='text-center heading mt-2'>Backend <span style={{fontWeight:"600"}}>&#8595;</span></h4>
                 <div className='row'>
                     <div className="col-lg-6 col-md-6 col-sm-4">
 
@@ -121,7 +121,7 @@ const Skill = () => {
                 </div>
             </div>
             <div>
-                <h4 className='text-center heading mt-2'>Other Skills</h4>
+                <h4 className='text-center heading mt-2'>Other Skills <span style={{fontWeight:"600"}}>&#8595;</span></h4>
                 <div className='row'>
                     <div className="col-lg-6 col-md-6 col-sm-4">
 

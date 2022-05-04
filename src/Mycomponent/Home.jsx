@@ -1,5 +1,5 @@
 import React from 'react'
-import Pass from '../imge/dsc.JPG'
+import Pass from '../imge/DSC_5014.png'
 import './Home.css'
 import { FcDownload } from "react-icons/fc";
 import { Link } from 'react-router-dom';
@@ -11,13 +11,13 @@ const Home = () => {
             <div className="row" >
                 <div className="col-sm-12 col-md-6 col-lg-4" >
                     <div className="text-center">
-                        <img src={Pass} alt="" className="img1" width={230} height={230} style={{borderRadius:"50%"}}  />
+                        <img src={Pass} alt="" className="img1"  />
                     </div>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-8" >
                 <div className=' conatnet ms-3 '>
-                            <h3 className='greeting'>Hii <span>I'm</span></h3>
-                            <h2>Laxman Nemane</h2>
+                            <h3 className='greeting'>Hi There</h3>
+                            <h2>I'm <span className='name'>Laxman Nemane</span></h2>
                             <marquee behavior="scroll" direction="Up" scrollamount="3" >And I am React Developer</marquee>
                             <p className="sub">I'm an software developer with excellent problem solving skills and ability to perform well in a team. Passionate about coding and developing challenging projects.</p>
                             <a href={pdf} className="btn1" download >
