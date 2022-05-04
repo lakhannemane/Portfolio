@@ -5,7 +5,7 @@ import "./Skill.css"
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
             <div className="container w-75">
                 <Link to="/">
                 <h4 className="navbar-brand brand"  >Port<span style={{color:"orange"}}>Folio</span></h4>

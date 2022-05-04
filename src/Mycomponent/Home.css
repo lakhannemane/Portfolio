@@ -1,6 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
 .main_page {
-    background-image: linear-gradient(to bottom, #74BDCB, #FFA384);
-
+    width: 100%;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+   
+    /* background-image: linear-gradient(to bottom, #74BDCB, #FFA384); */
+    /* pt-5 mb-5 pb-3 */
+    
+  
 }
 
 
@@ -10,11 +23,12 @@
     border-radius: 8%;
 }
 
-
-
-.img1:hover {
-    transition: 0.2s ease-in-out;
+.conatnet{
+    margin-left:10px;
+    margin-right: 10px;
 }
+
+
 
 marquee {
     font-size: 20px;
@@ -34,4 +48,11 @@ h2 {
 .name {
     color:rgb(116, 46, 6);
 }
+
+.btn1{
+    display: flex;
+}
+
+
+
 

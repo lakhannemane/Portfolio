@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
 .card1 {
     box-shadow: 4px 4px 7px black;
 }

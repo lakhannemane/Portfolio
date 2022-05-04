@@ -14,15 +14,15 @@ import About from './Mycomponent/About';
 function App() {
   return (
     <BrowserRouter>
-    <Navbar/>
-        <Routes>
-          <Route path="/" element={<AppHome/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/skill" element={<Skill/>}/>
-          <Route path="/Project" element={<Project/>}/>
-          <Route path="/contact" element={<ContactPage/>}/>
-        </Routes>
-     <Footer/>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<AppHome />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skill" element={<Skill />} />
+        <Route path="/Project" element={<Project />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
