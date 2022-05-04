@@ -6,12 +6,11 @@
 }
 
 .mainpage{
-    /* width:100%;
-    background-image: linear-gradient(to bottom, #74BDCB, #FFA384); */
+    width:100%;
+    /* background-image: linear-gradient(to bottom, #74BDCB, #FFA384); */
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    width: 100%;
 
 }
 

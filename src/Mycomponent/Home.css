@@ -10,7 +10,7 @@
     padding-bottom: 15px;
     padding-top: 15px;
    
-    /* background-image: linear-gradient(to bottom, #74BDCB, #FFA384); */
+    background-image: linear-gradient(to bottom, #74BDCB, #fdfdfd);
     /* pt-5 mb-5 pb-3 */
     
   
@@ -32,21 +32,22 @@
 
 marquee {
     font-size: 20px;
-    color: rgb(155, 71, 15);
+    font-weight: 700;
+    color: rgb(247, 110, 19);
 }
 
-h3 {
-    font-family: 'Libre Bodoni', serif;
+h4 {
+    font-family: 'Ubuntu', sans-serif , italic;
     font: 800;
 }
 
-h2 {
+/* h2 {
     font-family: 'Nunito', sans-serif;
     font: 800;
-}
+}  */
 
 .name {
-    color:rgb(116, 46, 6);
+    color:rgb(17, 17, 17);
 }
 
 .btn1{
@@ -56,3 +57,8 @@ h2 {
 
 
 
+@media only screen and (max-width: 500px) {
+    .conatnet{
+        margin: 25px 25px 0 25px;
+    }
+}

@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="col-sm-12 col-md-6 col-lg-8" >
                     <div className=' conatnet  '>
                         <h3 className='greeting'>Hi There</h3>
-                        <h2>I'm <span className='name'>Laxman Nemane</span></h2>
+                        <h4>I'm <span className='name'>Laxman Nemane</span></h4>
                         <marquee behavior="scroll" direction="Up" scrollamount="3" >And I am React Developer</marquee>
                         <p className="sub">I'm an software developer with excellent problem solving skills and ability to perform well in a team. Passionate about coding and developing challenging projects.</p>
                    

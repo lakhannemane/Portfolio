@@ -13,9 +13,22 @@ input{
 .Contact_head{
     font-weight: 600;
     text-decoration: underline;
+    padding-bottom: 30px;
 }
 
 .me{
     font-weight: 600;
     color: aqua;
 }
+
+.mumbai{
+    width: 230px;
+    height: 230px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .mumbai {
+        display: none;
+    }
+}
+    
